@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questionnaire</title>
+        <link rel="stylesheet" type="text/css" href="styles/survey.css">  
+        <link rel="stylesheet" href="styles/main.css">
+
+    </head>
+    <body>
+        <h2>Find Your Ideal Destination</h2>
+        <form>
+            <p class="question">Question 1: What type of trip are you looking for?</p>
+
+            <div class="option">
+                <input type="radio" id="cultural" name="fav_type" value="cultural">
+                <label for="cultural"><span>Cultural Exploration</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="tropical" name="fav_type" value="tropical">
+                <label for="tropical"><span>Tropical Relaxation</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="modern" name="fav_type" value="modern">
+                <label for="modern"><span>Modern Tradition</span></label>  
+            </div>
+            
+            <p class="question">Question 2: How adventurous are you?</p>
+
+            <div class="option">
+                <input type="radio" id="love" name="adv_level" value="love">
+                <label for="love"><span>Love Adventures</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="gentle" name="adv_level" value="gentle">
+                <label for="gentle"><span>Gentle Exploration</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="relaxing" name="adv_level" value="relaxing">
+                <label for="relaxing"><span>Relaxing Charm</span></label>
+            </div>
+
+            <p class="question">Question 3: What's your ideal weather for travel?</p>
+
+            <div class="option">
+                <input type="radio" id="warm" name="fav_weather" value="warm">
+                <label for="warm"><span>Warm Tropical</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="comfortable" name="fav_weather" value="comfortable">
+                <label for="comfortable"><span>Comfortable Seasonal</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="scenic" name="fav_weather" value="scenic">
+                <label for="scenic"><span>Scenic Varied</span></label>
+            </div>
+
+            <p class="question">Question 4: What kind of food excites you the most?</p>
+
+            <div class="option">
+                <input type="radio" id="spicy" name="fav_food" value="spicy">
+                <label for="spicy"><span>Spicy Flavorful</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="elegant" name="fav_food" value="elegant">
+                <label for="elegant"><span>Elegant Delicate</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="tropical_food" name="fav_food" value="tropical_food">
+                <label for="tropical_food"><span>Tropical Seafood</span></label>
+            </div>
+
+            <p class="question">Question 5: What's your budget?</p>
+
+            <div class="option">
+                <input type="radio" id="affordable" name="budget" value="affordable">
+                <label for="affordable"><span>Affordable Value</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="moderate" name="budget" value="moderate">
+                <label for="moderate"><span>Moderate Unique</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="flexible" name="budget" value="flexible">
+                <label for="flexible"><span>Flexible Premium</span></label>
+            </div>
+
+            <p class="question">Question 6: How do you prefer to spend your free time?</p>
+
+            <div class="option">
+                <input type="radio" id="market" name="free_time" value="market">
+                <label for="market"><span>Market Exploring</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="garden" name="free_time" value="garden">
+                <label for="garden"><span>Garden Wandering</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="beach" name="free_time" value="beach">
+                <label for="beach"><span>Beach Relaxing</span></label>
+            </div>
+
+            <p class="question">Question 7: What type of activities do you enjoy most on vacation?</p>
+
+            <div class="option">
+                <input type="radio" id="festivals" name="fav_activity" value="festivals">
+                <label for="festivals"><span>Cultural Festivals</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="nature" name="fav_activity" value="nature">
+                <label for="nature"><span>Adventure and Nature</span></label>
+            </div>
+            <div class="option">
+                <input type="radio" id="sport" name="fav_activity" value="sport">
+                <label for="sport"><span>Water Sports</span></label>
+            </div>
+
+            <p>
+                <button type="button" id="submit">Submit Your Answer</button>
+            </p>
+        </form>
+        <script src="scripts/survey.js"></script>
+    </body>
+</html>

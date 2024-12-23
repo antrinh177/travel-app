@@ -1,0 +1,202 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4ebe6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h2 {
+    margin: 0 0 50px 0;
+    color: white;
+    text-align: center; 
+    font-size: 2.5rem;
+    text-transform: uppercase;  
+    background-color: #566777;
+    width: 100%;
+    height: 90px;
+    padding-top: 45px;
+}
+
+form {
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    padding-left: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+
+#submit {
+    background-color: #566777; 
+    color: white;
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, transform 0.2s; 
+    margin-left: 245px;
+    margin-top: 20px;
+}
+
+#submit:hover {
+    background-color: #f0d2d0;
+    color: #566777;
+    transform: translateY(-2px); 
+}
+
+.question {
+    color: #566777;
+    font-weight: bold;
+    font-size: large;
+}
+
+.option {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.option input[type="radio"] {
+    display: none;
+}
+
+.option label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.option label span {
+    position: absolute; 
+    bottom: 35%; 
+    left: 0;
+    width: 100%; 
+    height: 30%; 
+    /*background-color: rgba(86, 103, 119, 0.6);*/
+
+    background-color: rgba(128, 128, 128, 0.55);
+    color: white; 
+    text-align: center;
+    box-sizing: border-box;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.option input[type="radio"]:checked + label {
+    border: 4px solid #D44C61; 
+    box-shadow: 0 0 10px rgba(212, 76, 97, 0.5);
+    transform: scale(1.05); 
+    transition: all 0.1s ease;
+}
+
+/* Custom background images */
+/* Question 1 */
+#cultural + label {
+    background-image: url("../images/surveyPage/favType_cultural.jpeg");
+}
+
+#tropical + label {
+    background-image: url("../images/surveyPage/favType_tropical.jpeg");
+}
+
+#modern + label {
+    background-image: url("../images/surveyPage/favType_modern.jpeg");
+}
+
+/* Question 2 */
+#love + label {
+    background-image: url("../images/surveyPage/advLevel_love.webp");
+}
+
+#gentle + label {
+    background-image: url("../images/surveyPage/advLevel_gentle.webp");
+}
+
+#relaxing + label {
+    background-image: url("../images/surveyPage/advLevel_relaxing.jpeg");
+}
+
+/* Question 3 */
+#warm + label {
+    background-image: url("../images/surveyPage/favWeather_warm.jpeg");
+}
+
+#comfortable + label {
+    background-image: url("../images/surveyPage/favWeather_comfortable.webp");
+}
+
+#scenic + label {
+    background-image: url("../images/surveyPage/favWeather_scenic.jpeg");
+}
+
+/* Question 4 */
+#spicy + label {
+    background-image: url("../images/surveyPage/favFood_spicy.jpeg");
+}
+
+#elegant + label {
+    background-image: url("../images/surveyPage/favFood_elegant.jpeg");
+}
+
+#tropical_food + label {
+    background-image: url("../images/surveyPage/favFood_tropical.jpeg");
+}
+
+/* Question 5 */
+#affordable + label {
+    background-image: url("../images/surveyPage/budget_affordable.jpeg");
+}
+
+#moderate + label {
+    background-image: url("../images/surveyPage/budget_moderate.webp");
+}
+
+#flexible + label {
+    background-image: url("../images/surveyPage/budget_flexible.jpeg");
+}
+
+/* Question 6 */
+#market + label {
+    background-image: url("../images/surveyPage/freeTime_market.jpeg");
+}
+
+#garden + label {
+    background-image: url("../images/surveyPage/freeTime_garden.jpeg");
+}
+
+#beach + label {
+    background-image: url("../images/surveyPage/freeTime_beach.jpeg");
+}
+
+/* Question 7 */
+#festivals + label {
+    background-image: url("../images/surveyPage/favActivity_festival.jpeg");
+}
+
+#nature + label {
+    background-image: url("../images/surveyPage/favActivity_nature.jpeg");
+}
+
+#sport + label {
+    background-image: url("../images/surveyPage/favActivity_sport.jpeg");
+}

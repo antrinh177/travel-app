@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(to bottom,#f0d2d0, white);
+}
+
+header {
+    background-color: #f0d2d0;
+    color: #3a2f2a;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #566777;
+    padding: 15px 0;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: #566777;
+    background-color: #f0d2d0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #3a2f2a;
+}
+
+h1 {
+    font-size: 40px; }
+
+.attractions-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attractions-table td {
+    vertical-align: top;
+    padding: 15px;
+    border: 1px solid #3a2f2a;
+}
+
+.image-container img {
+    max-width: 400px; /* Adjust width */
+    max-height: 300px; /* Adjust height */
+    border-radius: 5px; /* Optional for rounded edges */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional for styling */
+    display: block;
+    margin: 10px auto; /* Center and add spacing */
+}
+
+.attractions-table h3 {
+    color: #3a2f2a;
+    margin: 10px 0;
+}
+
+.attractions-table p {
+    color: #3a2f2a;
+}
+
+.attractions-table img {
+    max-width: 300px; /* Increased size for top attractions images */
+    max-height: 200px; /* Increased size for top attractions images */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 0 auto; /* Center the images */
+}
+
+#feedback-button{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 500px;
+    padding: 10px 20px;
+    background-color: #566777;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#feedback-button:hover {
+    background-color: #f0d2d0; 
+    color: #566777;
+    font-size: 20px;
+    }

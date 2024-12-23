@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/feedback.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form id="feedbackForm">
+        <h2>Feedback Form</h2>
+
+        <div class="question">
+            <p>1. How satisfied are you with this app?</p>
+            <div class="rating">
+                <input type="radio" id="rate1" name="service" value="1" required>
+                <label for="rate1">Extremely bad</label>
+
+                <input type="radio" id="rate2" name="service" value="2">
+                <label for="rate2">Bad</label>
+
+                <input type="radio" id="rate3" name="service" value="3">
+                <label for="rate3">Normal</label>
+
+                <input type="radio" id="rate4" name="service" value="4">
+                <label for="rate4">Good</label>
+
+                <input type="radio" id="rate5" name="service" value="5">
+                <label for="rate5">Perfect</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>2. How likely are you to recommend this app to others?</p>
+            <div class="rating">
+                <input type="radio" id="rate4-1" name="recommend" value="1" required>
+                <label for="rate4-1">Not likely at all</label>
+
+                <input type="radio" id="rate4-2" name="recommend" value="2">
+                <label for="rate4-2">Unlikely</label>
+
+                <input type="radio" id="rate4-3" name="recommend" value="3">
+                <label for="rate4-3">Normal</label>
+
+                <input type="radio" id="rate4-4" name="recommend" value="4">
+                <label for="rate4-4">Likely</label>
+
+                <input type="radio" id="rate4-5" name="recommend" value="5">
+                <label for="rate4-5">Extremely likely</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. How easy is it to navigate the app?</p>
+            <div class="rating">
+                <input type="radio" id="rate5-1" name="navigation" value="1" required>
+                <label for="rate5-1">Very difficult</label>
+
+                <input type="radio" id="rate5-2" name="navigation" value="2">
+                <label for="rate5-2">Difficult</label>
+
+                <input type="radio" id="rate5-3" name="navigation" value="3">
+                <label for="rate5-3">Normal</label>
+
+                <input type="radio" id="rate5-4" name="navigation" value="4">
+                <label for="rate5-4">Easy</label>
+
+                <input type="radio" id="rate5-5" name="navigation" value="5">
+                <label for="rate5-5">Very easy</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. How would you rate the overall design of the app?</p>
+            <div class="rating">
+                <input type="radio" id="rate6-1" name="design" value="1" required>
+                <label for="rate6-1">Very poor</label>
+
+                <input type="radio" id="rate6-2" name="design" value="2">
+                <label for="rate6-2">Poor</label>
+
+                <input type="radio" id="rate6-3" name="design" value="3">
+                <label for="rate6-3">Normal</label>
+
+                <input type="radio" id="rate6-4" name="design" value="4">
+                <label for="rate6-4">Good</label>
+
+                <input type="radio" id="rate6-5" name="design" value="5">
+                <label for="rate6-5">Excellent</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>5. How often do you use this app?</p>
+            <div class="rating">
+                <input type="radio" id="rate7-1" name="frequency" value="1" required>
+                <label for="rate7-1">Rarely</label>
+
+                <input type="radio" id="rate7-2" name="frequency" value="2">
+                <label for="rate7-2">Occasionally</label>
+
+                <input type="radio" id="rate7-3" name="frequency" value="3">
+                <label for="rate7-3">Frequently</label>
+
+                <input type="radio" id="rate7-4" name="frequency" value="4">
+                <label for="rate7-4">Very frequently</label>
+
+                <input type="radio" id="rate7-5" name="frequency" value="5">
+                <label for="rate7-5">Always</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>6. How would you rate the value of this app?</p>
+            <div class="rating">
+                <input type="radio" id="rate8-1" name="value" value="1" required>
+                <label for="rate8-1">1</label>
+
+                <input type="radio" id="rate8-2" name="value" value="2">
+                <label for="rate8-2">2</label>
+
+                <input type="radio" id="rate8-3" name="value" value="3">
+                <label for="rate8-3">3</label>
+
+                <input type="radio" id="rate8-4" name="value" value="4">
+                <label for="rate8-4">4</label>
+
+                <input type="radio" id="rate8-5" name="value" value="5">
+                <label for="rate8-5">5</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>7. Any additional comments or suggestions?</p>
+            <textarea class="comment" placeholder="Your comments..." id="comments"></textarea>
+        </div>
+
+        <button id="submit-button" type="submit">Submit Feedback</button>
+
+    </form>
+    <script src="scripts/feedback.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/vietnam.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <title>Vietnam</title>
+</head>
+<body>
+
+<header>
+    <h1>Your Ideal Destination is Vietnam</h1>
+    <p>Discover the beauty, culture, and cuisine of this amazing country!</p>
+</header>
+
+<div class="container">
+    <h2>About Vietnam</h2>
+    <p>Vietnam is a Southeast Asian country known for its rich culture, stunning landscapes, and delicious cuisine. 
+    From the bustling streets of Hanoi and Ho Chi Minh City to the serene beauty of Halong Bay and the Mekong Delta, Vietnam offers a wide range of experiences for travelers.</p>
+
+    <h2>Traditional Vietnamese Cuisine</h2>
+    <p>Vietnam is famous for its delicious and diverse food. Below are some of the must-try dishes:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dish</th>
+                <th>Description</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Pho</strong></td>
+                <td>A famous Vietnamese noodle soup consisting of broth, rice noodles, herbs, and meat, usually beef or chicken.</td>
+                <td><img src="images/images_vietnam/pho.jpg" alt="Pho"></td>
+            </tr>
+            <tr>
+                <td><strong>Banh Mi</strong></td>
+                <td>A Vietnamese sandwich that consists of a French baguette filled with meats, vegetables, and condiments.</td>
+                <td><img src="images/images_vietnam/banhmi.jpg" alt="Bánh Mì"></td>
+            </tr>
+            <tr>
+                <td><strong>Goi Cuon (Spring Rolls)</strong></td>
+                <td>Fresh Vietnamese spring rolls made with shrimp, herbs, rice noodles, and lettuce, wrapped in rice paper.</td>
+                <td><img src="images/images_vietnam/goicuon.jpg" alt="Spring Rolls"></td>
+            </tr>
+            <tr>
+                <td><strong>Com Tam</strong></td>
+                <td>Broken rice served with grilled pork (often with pork chop), but can be served with other types of meat.</td>
+                <td><img src="images/images_vietnam/comtam.jpg" alt="Cơm Tấm"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Famous places </h2>
+    <ul>
+        <li><b>Ha Long Bay:</b> A UNESCO World Heritage site known for its emerald waters and thousands of towering limestone islands.</li>
+        <li><b>Hoi An Ancient Town:</b> A well-preserved Southeast Asian trading port dating from the 15th to the 19th century, famous for its historic architecture.</li>
+        <li><b>Hue Imperial City:</b> The former capital of Vietnam, home to the ancient Imperial Palace and many historical sites.</li>
+    </ul>
+
+    <div class="image-container">
+        <img src="images/images_vietnam/halongbay.jpg" alt="Vietnam Landscape">
+        <img src="images/images_vietnam/hue.jpg" alt="Vietnam Culture">
+        <img src="images/images_vietnam/hoian.jpg" alt="Vietnam Cuisine">
+    </div>
+
+    <p>We invite you to experience the warmth of Vietnamese hospitality and the vibrancy of our culture. Vietnam awaits you!</p>
+    <button id="button">Share Feedback</button>
+
+</div>
+<script>
+    function handleButton(){
+    window.open('feedback.html', '_blank');
+    }
+    document.getElementById("button").addEventListener("click",handleButton);
+
+</script>
+
+</body>
+</html>
+

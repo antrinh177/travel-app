@@ -1,0 +1,112 @@
+/* General Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4ebe6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background-color: #566777;
+    color: #f4ebe6;
+    text-align: center;
+    padding: 30px;
+}
+
+.header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Main Content Section */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+/* Left Side (Image) */
+.left-side {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.left-side img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Right Side (Text and Button) */
+.right-side {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    color: #566777;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 775px;
+}
+
+.right-side h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.right-side li {
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 55px;
+}
+
+.right-side .button-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Button Styling */
+.button {
+    padding: 12px 25px;
+    background-color: #566777;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    margin-top: 100px;
+}
+
+.button:hover {
+    background-color: #f0d2d0;
+    color: #566777;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}

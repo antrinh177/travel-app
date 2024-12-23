@@ -1,0 +1,170 @@
+.timeline {
+    list-style: none;
+}
+.timeline > li {
+    margin-bottom: 60px;
+}       
+
+/* for Desktop */
+@media ( min-width : 640px ){
+  .timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  .timeline-date {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+  }
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px #95a7b1;
+    padding-left: 30px;
+  }
+  .timeline-content:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #f0d2d0;
+    position: absolute;
+    left: 106px;
+    top: 24px;
+    border-radius: 100%;
+  }
+}
+
+body {
+    background-color: #f4ebe6;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+
+#basic-info-tky, #recommendation, #plan {
+    border-bottom: solid 1px #566777;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+#basic-info-tky {
+  border-bottom: solid 1px #566777;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+
+
+.top-page {
+    position: relative;
+    background-size: cover;
+    height: 40vh;
+
+}
+
+.top-page img {
+    width: 100%;
+    height: 350px;
+    opacity: 0.5;
+}
+
+.top-page h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background-color: transparent
+}
+
+#distance-tky-trt {
+  float: right;
+  margin-right: 30px;
+}
+
+table { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-discription {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#recommendation-tbl {
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 1px solid #566777;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.img-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.img-list {
+  list-style: none;
+  margin: 10px;
+  } 
+
+#to-go-food {
+  height: 150px;
+  width: 100px;
+  margin-left: 35px;
+}
+
+#omotesando, #daikanyama, #daikanyama-clothes, #shibuya-sky {
+  height: 150px;
+  width: 250px;
+}
+
+#button-div {
+  text-align: center;
+}
+
+#plan {
+  border: none;
+}
+
+button {
+  margin-bottom: 50px;
+  background-color: #566777; 
+  color: white;
+  font-size: 16px; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s, transform 0.2s; 
+ }
+
+ button:hover {
+  background-color: #f0d2d0;
+  color: #566777;
+  transform: translateY(-2px); 
+ }
+
+ h1{
+  font-size: 40px;
+ }
